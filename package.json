@@ -1,0 +1,17 @@
+{
+  "name": "third-party-code-list",
+  "homepage": "https://github.com/iwehrman/third-party-code-list",
+  "repository": "https://github.com/iwehrman/third-party-code-list.git",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Wehrman",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^1.4.10",
+    "yargs": "^1.2.2"
+  }
+}
