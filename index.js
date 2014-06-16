@@ -52,7 +52,7 @@
 
                 parsed[pkg.name] = markup;
 
-                Object.keys(pkg.dependencies).forEach(function (dep) {
+                Object.keys(pkg.dependencies || {}).forEach(function (dep) {
                     getMarkup(pkg.dependencies[dep], parsed);
                 });
 
